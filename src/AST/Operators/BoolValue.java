@@ -6,4 +6,8 @@ public class BoolValue {
 
     BoolValue(boolean val){this.value = val;}
 
+    @Override
+    public String toString() {
+        return ""+ value +"";
+    }
 }
